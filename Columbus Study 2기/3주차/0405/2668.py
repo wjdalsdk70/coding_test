@@ -32,7 +32,7 @@ from collections import deque
 # print(len(max_result))
 # for m in max_result:
 #     print(m)
-
+from collections import deque
 N = int(input())
 data = [0] + [int(input()) for _ in range(N)]
 
