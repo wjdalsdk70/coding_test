@@ -11,4 +11,4 @@ for i in range(2, n+1):
         for k in range(1, r+1):
             dp[i][j][k] = (dp[i-1][j-1][k] + dp[i-1][j][k-1] + dp[i-1][j][k] * (i-2)) % MOD
             
-print(dp[n][l][k])
+print(dp[n][l][r])
